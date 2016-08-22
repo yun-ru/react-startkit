@@ -1,10 +1,10 @@
 import React from 'react';
 import {render} from 'react-dom';
 
-import User from './components/users';
+import Main from './container/Main';
 
 
 render(
-    <User></User>,
+    <Main/>,
     document.getElementById("app")
 )
